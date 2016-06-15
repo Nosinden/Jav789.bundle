@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>URL</key>
+  <dict>
+    <key>Jav789</key>
+    <dict>
+      <key>Identifier</key>
+      <string>com.plexapp.plugins.jav789</string>
+      <key>URLPatterns</key>
+      <array>
+        <string>^https?:\/\/jav789\.(?:[^/]+\/)?movie\/(.+)$</string>
+      </array>
+      <key>TestURLs</key>
+      <array>
+        <string>http://jav789.com/movie/yura-hitomi-stripped-teacher-649.html</string>
+        <string>http://jav789.com/movie/reika-ichinose-instant-debut-in-an-av-597.html</string>
+      </array>
+    </dict>
+  </dict>
+</dict>
+</plist>
