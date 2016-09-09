@@ -8,7 +8,7 @@ import bookmarks
 from updater import Updater
 from DumbTools import DumbKeyboard, DumbPrefs
 
-TITLE = L('title')
+TITLE = 'Jav789'
 PREFIX = '/video/jav789'
 BASE_URL = 'http://jav789.com'
 
@@ -219,8 +219,7 @@ def MyBookmarks():
 
     if len(oc) > 0:
         return oc
-    else:
-        return MC.message_container('Bookmarks', 'Bookmark List Empty')
+    return MC.message_container('Bookmarks', 'Bookmark List Empty')
 
 ####################################################################################################
 @route(PREFIX + '/bookmark/sub')
@@ -262,8 +261,7 @@ def BookmarksSub(category):
 
     if len(oc) > 0:
         return oc
-    else:
-        return MC.message_container('Bookmarks', '%s Bookmarks list Empty' %category)
+    return MC.message_container('Bookmarks', '%s Bookmarks list Empty' %category)
 
 ####################################################################################################
 @route(PREFIX + '/pornstar/list', page=int)
@@ -338,7 +336,6 @@ def PornstarSubList(title, href, pid, thumb):
 
     return oc
 
-
 ####################################################################################################
 @route(PREFIX + '/directory/list', page=int)
 def DirectoryList(title, href, page):
@@ -392,8 +389,7 @@ def DirectoryList(title, href, page):
 
     if len(oc) > 0:
         return oc
-    else:
-        return MC.message_container('Videos', 'Video List Empty')
+    return MC.message_container('Videos', 'Video List Empty')
 
 ####################################################################################################
 @route(PREFIX + '/videopage', video_info=dict)
