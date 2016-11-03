@@ -7,7 +7,7 @@ This plugin creates a new Video Channel within [Plex Media Server](https://plex.
 
 ## Features
 
-- Watch Free HD Japanese and Asian Adult Movies
+- Watch Free HD heyzo.com JAV
 - Video quality 360p & 720p
 - Custom Bookmarks
 - Video Search
